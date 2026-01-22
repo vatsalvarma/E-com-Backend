@@ -48,39 +48,38 @@ e-com/demo <br>
 ├── src/main/java/com/example/e-com<br>
 │   ├── controller<br>
 │   │   ├── CategoryController.java<br>
-│   │   ├── ProductController.java
-│   │   ├── CustomerController.java
-│   │   └── OrderController.java
-│   │
-│   ├── service
-│   │   ├── CategoryService.java
-│   │   ├── ProductService.java
-│   │   ├── CustomerService.java
-│   │   └── OrderService.java
-│   │
-│   ├── repository
-│   │   ├── CategoryRepository.java
-│   │   ├── ProductRepository.java
-│   │   ├── CustomerRepository.java
-│   │   └── OrderRepository.java
-│   │
-│   ├── model
-│   │   ├── Category.java
-│   │   ├── Product.java
-│   │   ├── Customer.java
-│   │   ├── Order.java
-│   │   └── OrderItem.java
-│   │
-│   └── EcommerceApplication.java
-│
-├── src/main/resources
-│   ├── application.properties
-│   └── application.yml
-│
-├── Dockerfile
-├── docker-compose.yml
-├── pom.xml
-└── README.md
+│   │   ├── ProductController.java<br>
+│   │   ├── CustomerController.java<br>
+│   │   └── OrderController.java<br>
+│   │<br>
+│   ├── service<br>
+│   │   ├── CategoryService.java<br>
+│   │   ├── ProductService.java<br>
+│   │   ├── CustomerService.java<br>
+│   │   └── OrderService.java<br>
+│   │<br>
+│   ├── repository<br>
+│   │   ├── CategoryRepository.java<br>
+│   │   ├── ProductRepository.java<br>
+│   │   ├── CustomerRepository.java<br>
+│   │   └── OrderRepository.java<br>
+│   │<br>
+│   ├── model<br>
+│   │   ├── Category.java<br>
+│   │   ├── Product.java<br>
+│   │   ├── Customer.java<br>
+│   │   ├── Order.java<br>
+│   │   └── OrderItem.java<br>
+│   │<br>
+│   └── EcommerceApplication.java<br>
+│<br>
+├── src/main/resources<br>
+│   └── application.properties<br>
+│<br>
+├── Dockerfile<br>
+├── docker-compose.yml<br>
+├── pom.xml<br>
+└── README.md<br>
 
 
 ---
@@ -106,10 +105,10 @@ e-com/demo <br>
 ## 🔗 API Endpoints
 
 ### Category APIs
-GET /api/products
-GET /api/orders
-GET /api/category
-GET /api/customers
+GET /api/products<br>
+GET /api/orders<br>
+GET /api/category<br>
+GET /api/customers<br>
 
 
 ---
