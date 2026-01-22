@@ -1,12 +1,16 @@
 # 🛒 E-Commerce Backend 
 
-A scalable and production-ready E-Commerce backend application built using Spring Boot and SQL database.
-This repository handles core e-commerce functionalities such as Customers, Categories, Products, and Orders through RESTful APIs.
+A scalable and production-ready E-Commerce backend application built using Spring Boot and SQL database.This repository handles core e-commerce functionalities such as Customers, Categories, Products, and Orders through RESTful APIs.
 <br>
-<br>
-<img width="1380" height="1077" alt="Screenshot 2026-01-21 184430" src="https://github.com/user-attachments/assets/f742b92b-303b-4b68-9909-343a8bc47bfd" />
 ---
 
+<img width="1380" height="1077" alt="Screenshot 2026-01-21 184430" src="https://github.com/user-attachments/assets/f742b92b-303b-4b68-9909-343a8bc47bfd" />
+
+---
+
+<img width="1916" height="864" alt="Screenshot 2026-01-01 171345" src="https://github.com/user-attachments/assets/4d443d74-93a8-4590-a8e6-d4bc6f17dbe2" />
+
+---
 ## 📌 Features
 
 
