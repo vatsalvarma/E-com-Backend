@@ -1,7 +1,8 @@
 # 🛒 E-Commerce Backend API
 
-A clean and scalable **E-Commerce backend application** built using **Spring Boot** and **SQL database**.  
-This project provides REST APIs for managing **Customers, Categories, Products, and Orders**.
+A scalable and production-ready E-Commerce backend application built using Spring Boot and SQL database.
+This repository handles core e-commerce functionalities such as Customers, Categories, Products, and Orders through RESTful APIs.
+<br>
 <br>
 <img width="1380" height="1077" alt="Screenshot 2026-01-21 184430" src="https://github.com/user-attachments/assets/f742b92b-303b-4b68-9909-343a8bc47bfd" />
 ---
@@ -45,40 +46,42 @@ This project provides REST APIs for managing **Customers, Categories, Products, 
 ecommerce-backend/
 │
 ├── src/main/java/com/example/ecommerce
-│ ├── controller
-│ │ ├── CategoryController.java
-│ │ ├── ProductController.java
-│ │ ├── CustomerController.java
-│ │ └── OrderController.java
-│ │
-│ ├── service
-│ │ ├── CategoryService.java
-│ │ ├── ProductService.java
-│ │ ├── CustomerService.java
-│ │ └── OrderService.java
-│ │
-│ ├── repository
-│ │ ├── CategoryRepository.java
-│ │ ├── ProductRepository.java
-│ │ ├── CustomerRepository.java
-│ │ └── OrderRepository.java
-│ │
-│ ├── model
-│ │ ├── Category.java
-│ │ ├── Product.java
-│ │ ├── Customer.java
-│ │ ├── Order.java
-│ │ └── OrderItem.java
-│ │
-│ └── EcommerceApplication.java
+│   ├── controller
+│   │   ├── CategoryController.java
+│   │   ├── ProductController.java
+│   │   ├── CustomerController.java
+│   │   └── OrderController.java
+│   │
+│   ├── service
+│   │   ├── CategoryService.java
+│   │   ├── ProductService.java
+│   │   ├── CustomerService.java
+│   │   └── OrderService.java
+│   │
+│   ├── repository
+│   │   ├── CategoryRepository.java
+│   │   ├── ProductRepository.java
+│   │   ├── CustomerRepository.java
+│   │   └── OrderRepository.java
+│   │
+│   ├── model
+│   │   ├── Category.java
+│   │   ├── Product.java
+│   │   ├── Customer.java
+│   │   ├── Order.java
+│   │   └── OrderItem.java
+│   │
+│   └── EcommerceApplication.java
 │
 ├── src/main/resources
-│ ├── application.properties
-│ 
+│   ├── application.properties
+│   └── application.yml
+│
 ├── Dockerfile
 ├── docker-compose.yml
 ├── pom.xml
 └── README.md
+
 
 ---
 
