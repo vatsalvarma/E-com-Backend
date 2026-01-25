@@ -63,6 +63,7 @@ public class DataSeeder implements CommandLineRunner {
 
         productRepository.saveAll(products);
 
-        System.out.println("✅ DataSeeder: Products with images inserted");
+        System.out.println("DataSeeder: Products with images inserted");
     }
 }
+
