@@ -24,11 +24,11 @@ public class Product {
     @JsonBackReference
     private Category category;
 
-    // ✅ Required by Hibernate
+    // Required by Hibernate
     protected Product() {
     }
 
-    // ✅ Constructor used by DataSeeder
+    // Constructor used by DataSeeder
     public Product(String name, BigDecimal price, String imageUrl, Category category) {
         this.name = name;
         this.price = price;
@@ -78,3 +78,4 @@ public class Product {
         this.category = category;
     }
 }
+
